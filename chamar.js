@@ -36,7 +36,7 @@ event.preventDefault();
 
 var result = inputTexto.value.toLowerCase();
 var mensagemMinuscula = criptografar(result);
-msg.value = mensagemMinuscula.replace(/[^a-z]/gi,);
+msg.value = mensagemMinuscula.replace(/[^a-z]/gi,'');
 
 
 
